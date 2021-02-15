@@ -3,3 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+.photos img {
+  display: flex;
+  height: 20vh;
+  max-width: 100%;
+}

@@ -1,30 +1,118 @@
 {
-    "albums": [
+  "albums": [
+    {
+      "id": 1,
+      "name": "Album 1",
+      "thumbnail": "https://cdn1.cheryls.com/wcsstore/CherylAndCompany/images/catalog/cco_CGJA3x.jpg?width=100&height=100&quality=80&auto=webp&optimize={medium}",
+      "photos": [
         {
-            "id": 1,
-            "name": "Album 1",
-            "thumbnail": "https://www.placecage.com/c/200/300",
-            "photos": [
-                {
-                    "name": "photo 1",
-                    "thumbnail": "https://www.placecage.com/c/200/300"
-                },
-                {
-                    "name": "photo 2",
-                    "thumbnail": "https://www.placecage.com/c/200/300"
-                }
-            ]
+          "name": "photo 1",
+          "thumbnail": "https://www.mamaknowsglutenfree.com/wp-content/uploads/2019/01/gluten-free-peanut-butter-cookies-1A.jpg"
         },
         {
-            "id": 2,
-            "name": "Album 2",
-            "thumbnail": "https://www.placecage.com/c/200/300",
-            "photos": [
-                {
-                    "name": "photo other thing...",
-                    "thumbnail": "https://www.placecage.com/c/200/300"
-                }
-            ]
+          "name": "photo 2",
+          "thumbnail": "https://www.the-girl-who-ate-everything.com/wp-content/uploads/blogger/_A39cgxoHN64/S0ggH2-gYRI/AAAAAAAAESI/iNUJImGPRto/s1600/white-chocolate-macadamia-cookie2.jpg"
+        },
+        {
+          "name": "photo 3",
+          "thumbnail": "https://www.cookingclassy.com/wp-content/uploads/2017/06/snickerdoodles-40.jpg"
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Album 2",
+      "thumbnail": "https://bluewaterhealthyliving.com/wp-content/uploads/2020/09/chocolate-581682_1280.jpg",
+      "photos": [
+        {
+          "name": "photo other thing...",
+          "thumbnail": "https://sugarfreelondoner.com/wp-content/uploads/2020/09/Sugar-Free-White-Chocolate-1200-500x500.jpg"
+        },
+        {
+          "name": "photo 2",
+          "thumbnail": "https://img1.mashed.com/img/gallery/the-untold-truth-of-ferrero-rocher-chocolate/intro-1610304867.jpg"
+        },
+        {
+          "name": "photo 3",
+          "thumbnail": "https://www.thespruceeats.com/thmb/5G7Jvw-NV3ydjMXTJGaIu8um5Pw=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cookies-cream-bark-1500-58ae09983df78c345b2aba63-5a85cb81119fa80037c68794.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Album 3",
+      "thumbnail": "https://www.pennmedicine.org/-/media/images/miscellaneous/food%20and%20drink/tea_and_spices_on_table.ashx?mw=620&mh=408",
+      "photos": [
+        {
+          "name": "photo other thing...",
+          "thumbnail": "https://feelgoodfoodie.net/wp-content/uploads/2020/04/Ginger-Turmeric-Tea-6.jpg"
+        },
+        {
+          "name": "photo 2",
+          "thumbnail": "https://d2u8towkwolubl.cloudfront.net/wp-content/uploads/2020/01/shutterstock_600332252-1246x700.jpg"
+        },
+        {
+          "name": "photo 3",
+          "thumbnail": "https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_600,h_338/v1/img/recipes/63/78/5/SkmVD4OjTQaQX3eOKV8D_DSC_6105.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Album 4",
+      "thumbnail": "https://i.etsystatic.com/9182597/r/il/fffaab/1803189588/il_1588xN.1803189588_bywm.jpg",
+      "photos": [
+        {
+          "name": "photo other thing...",
+          "thumbnail": "https://usa-grlk5lagedl.stackpathdns.com/production/usa/images/1528776673759543-LOCrystalsRose.jpeg?w=450&h=800&fit=clip&crop=faces&auto=%5B%22format%22%2C%20%22compress%22%5D&cs=srgb"
+        },
+        {
+          "name": "photo 2",
+          "thumbnail": "https://i.ebayimg.com/images/g/6cwAAOSw7W5XN2WG/s-l1600.jpg"
+        },
+        {
+          "name": "photo 3",
+          "thumbnail": "https://img.buzzfeed.com/buzzfeed-static/static/2017-12/5/15/asset/buzzfeed-prod-fastlane-03/sub-buzz-7825-1512506571-1.jpg?downsize=600:*&output-format=auto&output-quality=auto"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Album 5",
+      "thumbnail": "https://cdn1.dreamcatcher.com/images/P/southwestern-dreamcatcher.jpg",
+      "photos": [
+        {
+          "name": "photo other thing...",
+          "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/711Liuj5fzL._AC_SL1000_.jpg"
+        },
+        {
+          "name": "photo 2",
+          "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61793o1DE2L._AC_SL1000_.jpg"
+        },
+        {
+          "name": "photo 3",
+          "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/71tzPrWNq8L._AC_SL1500_.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Album 6",
+      "thumbnail": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/01/17/11/istock-994807816.jpg?width=990&auto=webp&quality=75",
+      "photos": [
+        {
+          "name": "photo other thing...",
+          "thumbnail": "https://cdn.thomasnet.com/insights-images/embedded-images/1eeb9336-a735-4650-b3b1-ade26d793e45/f21df511-8ee6-4d39-98c9-1db51fc3fee5/FullHD/private-label-candles.jpg"
+        },
+        {
+          "name": "photo 2",
+          "thumbnail": "https://www.digital-photo-secrets.com/images/candlelight-wine.jpg"
+        },
+        {
+          "name": "photo 3",
+          "thumbnail": "https://aguiarphotography.com.au/wp-content/uploads/2018/04/untitled-92.jpg"
+        }
+      ]
+    }
+  ]
 }

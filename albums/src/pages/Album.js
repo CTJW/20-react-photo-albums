@@ -1,3 +1,28 @@
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import "../App.css";
 export default function Album(props) {
-    return <div>album</div>
+  const [albums, setAlbums] = useState([]);
+  useEffect(() => {
+    fetch("http://localhost:3001/albums")
+      .then((resp) => resp.json())
+      .then((data) => {
+        setAlbums(data);
+      });
+  }, []);
+  return (
+    <div className="App">
+      {albums.map((album) => {
+        return (
+          <p key={album.id}>
+            <div className="photos">
+              <Link to={`album/${album.id}`}>
+                <img src={album.thumbnail}></img>
+              </Link>
+            </div>
+          </p>
+        );
+      })}
+    </div>
+  );
 }
