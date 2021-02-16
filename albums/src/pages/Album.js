@@ -16,8 +16,9 @@ export default function Album(props) {
         return (
           <p key={album.id}>
             <div className="photos">
-              <Link to={`album/${album.id}`}>
-                <img src={album.thumbnail}></img>
+              <Link to={`detail/${album.id}`}>
+                <img src={album.thumbnail} height="100px" width="100px"></img>
+                <span>{album.name}</span>
               </Link>
             </div>
           </p>

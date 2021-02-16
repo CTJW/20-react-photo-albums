@@ -3,8 +3,45 @@
   padding: 0;
   box-sizing: border-box;
 }
-.photos img {
+
+.App {
   display: flex;
+  flex-direction: row;
+}
+
+/* .album {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
   height: 20vh;
-  max-width: 100%;
+  max-width: 60%;
+} */
+
+.photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  /* height: 200px;
+  max-width: 60%; */
+  text-align: center;
+}
+
+.pics img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 20px;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.pics {
+  text-align: center;
 }
