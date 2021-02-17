@@ -5,18 +5,11 @@
 }
 
 .App {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
 }
-
-/* .album {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: 20vh;
-  max-width: 60%;
-} */
 
 .photos {
   display: grid;
@@ -28,20 +21,18 @@
   text-align: center;
 }
 
-.pics img {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 50px;
-  row-gap: 20px;
-}
-
-li {
+/* li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 20px;
-}
+} */
 
-.pics {
-  text-align: center;
+.detailpics {
+  display: flex;
+  /* text-align: center; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px; */
 }

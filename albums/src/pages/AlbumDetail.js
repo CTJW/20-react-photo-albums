@@ -19,16 +19,19 @@ export default function AlbumDetail(props) {
   // console.log(detailAlbums.photos);
 
   return (
-    <div className="App">
-      <div className="album">{detailAlbums.name} </div>
+    <div className="details">
+      {/* <div className="album">{detailAlbums.name} </div> */}
+      <Link to="/">{detailAlbums.name}</Link>
       {detailAlbums.photos &&
         detailAlbums.photos.map((photo) => {
           return (
             <div className="pics">
-              <li key={photo.id}>
-                <img src={photo.thumbnail} height="100px" width="100px"></img>
-                <span>{photo.name}</span>
-              </li>
+              <p key={photo.id}>
+                <div className="detailpics">
+                  <img src={photo.thumbnail} height="100px" width="100px"></img>
+                  <span>{photo.name}</span>
+                </div>
+              </p>
             </div>
           );
         })}
