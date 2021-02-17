@@ -30,9 +30,13 @@
 
 .detailpics {
   display: flex;
-  /* text-align: center; */
-  /* display: grid;
+  text-align: center;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
-  row-gap: 20px; */
+  row-gap: 20px;
+}
+.albumlinks {
+  display: flex;
+  flex-direction: column;
 }

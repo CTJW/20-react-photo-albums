@@ -2,6 +2,10 @@ import { Link, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "../App.css";
 
+{
+  /* <Link to="/album/1/2/3/4/5/6"></Link>; */
+}
+
 export default function AlbumDetail(props) {
   // const { id } = useParams();
   const id = props.match.params.id;
@@ -15,13 +19,22 @@ export default function AlbumDetail(props) {
         setDetailAlbums(data);
       });
   }, []);
+
   // console.log(detailAlbums.name);
   // console.log(detailAlbums.photos);
 
   return (
     <div className="details">
       {/* <div className="album">{detailAlbums.name} </div> */}
-      <Link to="/">{detailAlbums.name}</Link>
+      {/* <Link to="/">{detailAlbums.name}</Link> */}
+      <div className="albumlinks">
+        <Link to="/album/1">Album 1</Link>
+        <Link to="/album/2">Album 2</Link>
+        <Link to="/album/3">Album 3</Link>
+        <Link to="/album/4">Album 4</Link>
+        <Link to="/album/5">Album 5</Link>
+        <Link to="/album/6">Album 6</Link>
+      </div>
       {detailAlbums.photos &&
         detailAlbums.photos.map((photo) => {
           return (
